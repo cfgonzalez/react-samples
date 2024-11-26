@@ -7,3 +7,7 @@ npm install react react-dom -E
 # Crear archivo vite.config
 
 Confiurar el plugin de react
+
+# Instalar linter
+
+npm install standard -D 
