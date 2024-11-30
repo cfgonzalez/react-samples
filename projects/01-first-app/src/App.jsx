@@ -1,5 +1,6 @@
 import React from "react";
+import { PrincipalContainer } from "./components/principal-container/PrincipalContainer";
 
 export const App = () => {
-  return(<h1> App Test</h1>);
+  return(<PrincipalContainer />);
 }
