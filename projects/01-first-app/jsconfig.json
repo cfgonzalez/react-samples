@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    // "module": "ES6",
-    // "jsx": "preserve",
+    // "module": "commonjs",
     "checkJs": true,
+    "plugins": [
+      { "name": "typescript-plugin-css-modules" }
+    ],
     "paths": {
       "@src/*": ["./src/*"],
     }

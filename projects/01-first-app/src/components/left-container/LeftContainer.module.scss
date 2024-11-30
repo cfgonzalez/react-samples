@@ -1,0 +1,7 @@
+@use '@src/global-styles/GlobalStyles' as globalStyles;
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: globalStyles.$left-container-color;
+}
