@@ -3,6 +3,7 @@
 npm install7
 npm install @vitejs/plugin-react -E
 npm install react react-dom -E
+npm add -D sass 
 
 # Crear archivo vite.config
 
