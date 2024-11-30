@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'RubikScribble';
+  src: url('../assets/fonts/RubikScribble-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+* {
+  font-family: 'RubikScribble';
+  font-weight: 400;
+  font-size: 32px;
+  color: white;
+}
