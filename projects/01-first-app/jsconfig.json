@@ -3,7 +3,10 @@
     "jsx": "react",
     // "module": "ES6",
     // "jsx": "preserve",
-    "checkJs": true
+    "checkJs": true,
+    "paths": {
+      "@src/*": ["./src/*"],
+    }
   },
   // "exclude": ["node_modules", "**/node_modules/*"]
 }

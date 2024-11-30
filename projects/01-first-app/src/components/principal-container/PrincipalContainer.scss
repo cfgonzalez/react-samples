@@ -1,6 +1,8 @@
+@use '@src/global-styles/GlobalStyles' as globalStyles;
+
 .container {
   display: flex row;
   width: 80vw;
   height: 80vh;
-  background-color: gray;
+  background-color: globalStyles.$principal-container-color;
 }
