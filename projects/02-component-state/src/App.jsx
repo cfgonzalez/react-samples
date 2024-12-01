@@ -1,9 +1,10 @@
 import React from "react"
+import { PrincipalContainer } from "./components/principal-container/PrincipalContainer"
 
 function App() {
 
   return (
-    <div>Sample App</div>
+    <PrincipalContainer />
   )
 }
 
