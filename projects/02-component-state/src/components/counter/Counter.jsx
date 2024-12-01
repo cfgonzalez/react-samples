@@ -19,9 +19,15 @@ export const Counter = () => {
 
   function handleAddPlus3Click() {
     // Solo se actualiza una vez ya que react "encola" los set y solo cambia en el proximo "rerender"
-    setCount(count + 1);
-    setCount(count + 1);
-    setCount(count + 1);
+    // setCount(count + 1);
+    // setCount(count + 1);
+    // setCount(count + 1);
+
+    // La opcion correcta para actualizar un estado multples veces que se actualize seria
+    // De esta forma react agrega " la ejecucion del a funcion " a la cola de updates de estado
+    setCount(n => n + 1);
+    setCount(n => n + 1);
+    setCount(n => n + 1);
   }
 
   function handleAddAndAlert() {
@@ -33,10 +39,12 @@ export const Counter = () => {
     let newCount = count + 5;
     setCount(newCount);
     alert(newCount);
+    
   }
 
   return (
     <div>
+      <h4>Counter Sample</h4>
       <div>Last render: {formattedTime}</div>
       <div>Current Count: {count}</div>
       <button onClick={handleAddClick}>Add</button>

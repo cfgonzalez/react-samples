@@ -1,7 +1,8 @@
 import styles from './PrincipalContainer.module.scss';
 
-import { Counter } from '../counter/Counter';
 import React from "react";
+import { ObjectSample } from '../object-sample/ObjectSample';
+import { Counter } from '../counter/Counter';
 
 
 export const PrincipalContainer = () => {
@@ -9,6 +10,7 @@ export const PrincipalContainer = () => {
     <div className={styles.container}>
       <div>Principal Container</div>
       <Counter />
+      <ObjectSample />
     </div>    
   );
 }
