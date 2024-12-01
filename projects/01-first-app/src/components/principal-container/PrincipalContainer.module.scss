@@ -8,15 +8,20 @@ $child-height: 500px;
   flex-direction: column;
   width: 80vw;
   height: 80vh;
-  background-color: globalStyles.$principal-container-color;
+  background-color: globalStyles.$background-color;
+
+  > * {
+    margin: 10px;
+  }
 
   .content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     
     > * {
       flex: 1;
+      margin: 10px;
       max-width: $child-width;      
       height: $child-height;
       box-sizing: border-box;

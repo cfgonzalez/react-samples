@@ -1,0 +1,19 @@
+@use '@src/global-styles/GlobalStyles' as globalStyles;
+
+.form {
+  padding: 20px;
+  // max-width: 300px;
+  min-width: 300px;
+  background-color: globalStyles.$level-two-color;
+
+  .formContent {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .formButtons {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
