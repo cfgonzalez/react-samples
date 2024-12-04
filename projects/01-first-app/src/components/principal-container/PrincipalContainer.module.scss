@@ -1,0 +1,29 @@
+@use '@src/global-styles/GlobalStyles' as globalStyles;
+
+$child-width: 50%;
+$child-height: 500px;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;  
+  background-color: globalStyles.$background-color;
+
+  > * {
+    margin: 10px;
+  }
+
+  .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    > * {
+      flex: 1;
+      margin: 10px;
+      max-width: $child-width;      
+      height: $child-height;
+      box-sizing: border-box;
+    }
+  }
+}
