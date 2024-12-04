@@ -1,6 +1,6 @@
 # Log de instalacion de dependencias:
 
-npm install7
+npm install
 npm install @vitejs/plugin-react -E
 npm install react react-dom -E
 npm add -D sass 

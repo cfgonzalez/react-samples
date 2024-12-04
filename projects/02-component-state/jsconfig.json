@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "checkJs": true,
+    "plugins": [
+      { "name": "typescript-plugin-css-modules" }
+    ],
+    "paths": {
+      "@src/*": ["./src/*"],
+    }
+  },
+}

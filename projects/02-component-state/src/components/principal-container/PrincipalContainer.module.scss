@@ -1,0 +1,16 @@
+@use '@src/styles/global-colors' as globalColors;
+
+$child-width: 50%;
+$child-height: 500px;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;  
+  background-color: globalColors.$background-color;
+
+  > * {
+    margin: 10px;
+  }
+
+}
