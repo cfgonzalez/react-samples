@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    // "module": "commonjs",
+    "checkJs": true,
+    "plugins": [
+      { "name": "typescript-plugin-css-modules" }
+    ],
+    "paths": {
+      "@src/*": ["./src/*"],
+    }
+  },
+  // "exclude": ["node_modules", "**/node_modules/*"]
+}
