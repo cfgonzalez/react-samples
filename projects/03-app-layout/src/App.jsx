@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css'
-import { CustomAppBar } from './Components/custom-app-bar/AppBar';
 import CssBaseline from '@mui/material/CssBaseline';
+import { Layout } from './Components/layout/Layout';
 
 function App() {
   return (
     <>
       <CssBaseline />
-      <CustomAppBar />
+      <Layout />
     </>   
   )
 }
