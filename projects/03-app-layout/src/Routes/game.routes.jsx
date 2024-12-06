@@ -11,10 +11,12 @@ export const gameRoutes =
   <>    
     <Route path="modulea" element={<ModuleALayout />}>
       <Route path="games/add" element={<GameEdit />} />
+      <Route path="games/:gameId/edit" element={<GameEdit />} />
       <Route path="games" element={<GameList />} />
     </Route>
     <Route path="moduleb" element={<ModuleBLayout />}>
       <Route path="games/add" element={<GameEdit />} />
+      <Route path="games/:gameId/edit" element={<GameEdit />} />
       <Route path="games" element={<GameList />} />
     </Route>
   </>;
