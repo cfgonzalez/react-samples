@@ -7,10 +7,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Typography from '@mui/material/Typography';
 import React from "react";
 
-export const CustomAppBar = () => {
+export const CustomAppBar = ({title = "", color}) => {
   return(
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" color={color}>
         <Toolbar>
           <IconButton
             size="large"
@@ -22,7 +22,7 @@ export const CustomAppBar = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            {title}
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
